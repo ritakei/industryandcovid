@@ -25,15 +25,15 @@ def listin(data) -> None:#リスト
 def main():   
 
     if not os.path.exists('park_sales.xlsx'):
-        sp.call("curl -tlsv1.2 -v -O -L https://github.com/ritakei/industryandcovid/raw/main/park_sales.xlsx" ,shell=True)
+        sp.call("curl -tlsv1.2 -v -O -L https://github.com/ritakei/industryandcovid/raw/main/park_sales.xlsx " ,shell=True)
         park_wb = openpyxl.load_workbook("park_sales.xlsx")
         
     if not os.path.exists('internet_service_sales.xlsx'):
-        sp.call("curl -tlsv1.2 -v -O -L https://github.com/ritakei/industryandcovid/raw/main/internet_service_sales.xlsx" ,shell=True)
+        sp.call("curl -tlsv1.2 -v -O -L https://github.com/ritakei/industryandcovid/raw/main/internet_service_sales.xlsx " ,shell=True)
         net_wb = openpyxl.load_workbook("internet_service_sales.xlsx")
             
     if not os.path.exists('newly_confirmed_cases_daily.xlsx'):
-        sp.call("curl -tlsv1.2 -v -O -L https://github.com/ritakei/industryandcovid/raw/main/newly_confirmed_cases_daily.xlsx" ,shell=True)
+        sp.call("curl -tlsv1.2 -v -O -L https://github.com/ritakei/industryandcovid/raw/main/newly_confirmed_cases_daily.xlsx " ,shell=True)
         daily_cases_wb = openpyxl.load_workbook("newly_confirmed_cases_daily.xlsx")
 
     #openpyxl           
