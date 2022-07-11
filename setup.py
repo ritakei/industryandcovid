@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="industryandcovid",
-    version="0.0.3",
+    version="0.0.7",
     author="rinko takei",
     author_email="rtakei@sciencepark.co.jp",
     description="This project will compare amusement park sales with Internet industry sales and the number of people infected with COVID.",
@@ -21,7 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    py_modules=['industoryandcovid'],
+    py_modules=['industryandcovid'],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.8.5",
     entry_points = {
