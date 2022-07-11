@@ -1,4 +1,5 @@
 # Relationship between coronavirus and Japanese industry
+DOI 10.24433/CO.3800951.v1
 
 This project will compare amusement park sales with Internet industry sales and the number of people infected with COVID.
 
